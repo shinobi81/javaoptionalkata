@@ -4,7 +4,16 @@ import lombok.AllArgsConstructor;
 
 import java.io.PrintStream;
 import java.util.Optional;
+import java.util.function.Consumer;
 
+/**
+ * Consume an Optional if it Is Present.
+ * If it Is Not Present, Then Execute an Empty-Based Action.
+ *
+ * This is a job for {@link Optional#ifPresentOrElse(Consumer, Runnable)}.
+ *
+ * @since Java 9
+ */
 @AllArgsConstructor
 public class Pokedex {
 

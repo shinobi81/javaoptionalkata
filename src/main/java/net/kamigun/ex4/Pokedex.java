@@ -1,7 +1,11 @@
 package net.kamigun.ex4;
 
 import java.util.Optional;
+import java.util.function.Supplier;
 
+/**
+ * When No Value Is Present, Set/Return a Non-Existent Default Object via {@link Optional#orElseGet(Supplier)}.
+ */
 public class Pokedex {
 
     String elaborateStatus() {

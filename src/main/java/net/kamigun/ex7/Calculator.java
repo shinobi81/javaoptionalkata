@@ -4,6 +4,9 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.Optional;
 
+/**
+ * When You Have an Optional and Need a {@code null} Reference, use {@link Optional}{@code .orElse(null)}.
+ */
 public class Calculator {
 
     public static final String SUM_METHOD_NAME = "sum";

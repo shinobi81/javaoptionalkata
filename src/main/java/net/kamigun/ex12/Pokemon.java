@@ -2,6 +2,9 @@ package net.kamigun.ex12;
 
 import java.util.Optional;
 
+/**
+ * Avoid chaining {@link Optional}'s methods with the single purpose of getting a value.
+ */
 public class Pokemon {
 
     public static final String DEFAULT_STATUS = "PENDING";

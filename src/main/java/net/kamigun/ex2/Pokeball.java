@@ -4,6 +4,9 @@ import lombok.AllArgsConstructor;
 
 import java.util.Optional;
 
+/**
+ * Ensure that an {@link Optional} has a value before calling {@link Optional#get()}.
+ */
 @AllArgsConstructor
 public class Pokeball {
 
